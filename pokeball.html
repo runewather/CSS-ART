@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeball CSS</title>
+		<style>
+			html, body {
+				height: 100%;
+				background-color: antiquewhite;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				margin: 0;
+			}
+
+			.pokeball {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				width: 500px;
+				height: 500px;
+				border: 16px solid black;
+				border-radius: 50%;
+				box-sizing: border-box;
+				background: linear-gradient(red 50%, white 50%);
+			}
+
+			.pokeball::before {
+				content: "";
+				position: absolute;
+				top: calc(50% - 15px);
+				height: 40px;
+				width: 100%;
+				background: black;
+			}
+
+			.pokeball::after {
+				content: "";
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				height: 150px;
+				width: 150px;
+				border: 20px solid black;
+				background: white;
+				border-radius: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.inside-circle {
+				border: 8px solid black;
+				height: 75px;
+				width: 75px;
+				border-radius: 50%;
+				z-index: 999;
+			}
+		</style>
+</head>
+<body>
+  <div class="container">
+		<div class="pokeball">
+			<div class="inside-circle"></div>
+		</div>
+	</div>
+</body>
+</html>
