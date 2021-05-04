@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shield CSS</title>
+		<style>
+			html, body {
+				height: 100%;
+				background-color: lightsalmon;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				margin: 0;
+			}
+
+      .arrow-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+			.arrow-back {				
+				width: 200px;
+				height: 200px;
+        background: linear-gradient(180deg , teal 50%, rgb(2, 155, 155) 50%);
+        position: relative;		
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+			}
+
+      .arrow-back::before {				
+				content: "";
+        position: absolute;
+        width: 0px;
+				height: 0px;
+        top: 50%;
+        left: -1px;
+        transform: translateY(-50%);
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid transparent;
+        border-left: 80px solid lightsalmon;
+        z-index: 999;
+			}
+
+      .arrow-body {
+        height: 50px;
+        width: 500px;
+        background: linear-gradient(180deg , burlywood 50%, rgb(214, 169, 110) 50%);
+        transform: translateX(-3px);
+      }
+
+      .arrow-front-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .arrow-front-upper {
+        height: 0px;
+        width: 0px;
+        transform: translateX(-3px);
+        border-top: 100px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-left: 140px solid brown;
+      }
+
+      .arrow-front-bottom {
+        height: 0px;
+        width: 0px;
+        transform: translateX(-3px);
+        border-top: 0px solid transparent;
+        border-bottom: 100px solid transparent;
+        border-left: 140px solid rgb(158, 69, 69);
+      }
+		
+		</style>
+</head>
+<body>
+  <div class="container">
+		<div class="arrow-back"></div>
+    <div class="arrow-body"></div>
+    <div class="arrow-front-container">
+      <div class="arrow-front-upper"></div>
+      <div class="arrow-front-bottom"></div>
+    </div>
+	</div>
+</body>
+</html>
