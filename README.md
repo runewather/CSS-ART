@@ -10,7 +10,7 @@ Hi! I created this repository to challenge myself to be a better Front-end devel
 
 [Arrow](#Arrow)
 
-[Coffee cup](#Coffeecup)
+[Coffee cup](#Coffee-cup)
 
 ## Pokeball
 
@@ -32,7 +32,7 @@ https://codepen.io/victo-pessoa/pen/PoWMMQx
 https://codepen.io/victo-pessoa/pen/NWpKKpx
 ![image](https://user-images.githubusercontent.com/6431486/116952993-80a4f980-ac62-11eb-90cc-3dc19f098f71.png)
 
-## Coffee cup
+## Coffee-cup
 
 ### Live test
 https://codepen.io/victo-pessoa/pen/rNyBNVq
