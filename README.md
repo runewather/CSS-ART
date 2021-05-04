@@ -10,7 +10,7 @@ Hi! I created this repository to challenge myself to be a better Front-end devel
 
 [Arrow](#Arrow)
 
-[Coffee cup](#Coffee cup)
+[Coffee cup](#Coffeecup)
 
 ## Pokeball
 
