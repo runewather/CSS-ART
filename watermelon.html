@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeball CSS</title>
+		<style>
+			html, body {
+				height: 100%;
+				background-color: indigo;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				margin: 0;
+			}
+
+			.watermelon {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+				position: relative;
+				width: 500px;
+				height: 250px;
+				border: 26px solid #2EA6A6;
+				border-bottom-right-radius: 1000px;
+				border-bottom-left-radius: 1000px;
+				border-top: 0;
+				background-color: #F26962;
+			}
+
+			.seed-row {
+				display: flex;
+				justify-content: space-evenly;
+				width: 90%;
+				margin-top: 25px;
+			}
+
+			.seed {		
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				background-color: black;				
+			}
+		</style>
+</head>
+<body>
+  <div class="container">
+		<div class="watermelon">
+			<div class="seed-row">
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+			</div>
+			<div class="seed-row">
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+			</div>
+			<div class="seed-row">
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+			</div>
+			<div class="seed-row">
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+			</div>
+			<div class="seed-row">
+				<div class="seed"></div>
+				<div class="seed"></div>
+				<div class="seed"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
