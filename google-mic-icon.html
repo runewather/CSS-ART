@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Mic Icon CSS</title>
+		<style>
+			html, body {
+				height: 100%;
+				background-color: cornsilk;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				display: flex;
+				position: relative;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				margin: 0;
+			}
+      
+			.mic {
+				height: 375px;
+				width: 175px;
+				background-color: #4B94F2;
+				border-radius: 100px;
+				transform: translateY(25px);
+			}
+
+			.semi-circle {
+				height: 150px;
+				width: 300px;
+				border: 32px solid #D93B3B;
+				border-bottom-right-radius: 600px;
+				border-bottom-left-radius: 600px;
+				border-top: 0;
+				transform: translateY(-70px);
+			}
+
+			.mic-line {
+				transform: translateY(-75px);
+				height: 150px;
+				width: 75px;
+				background-color: #3FA659;
+			}
+
+			.base {
+				height: 50px;
+				width: 300px;
+				background-color: #F2B035;
+				transform: translateY(-75px);
+			}
+
+		</style>
+</head>
+<body>
+  <div class="container">
+		<div class="mic"></div>
+		<div class="semi-circle"></div>
+		<div class="mic-line"></div>
+		<div class="base"></div>
+	</div>
+</body>
+</html>
