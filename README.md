@@ -3,7 +3,7 @@
 Hi! I created this repository to challenge myself to be a better Front-end developer by drawing some pictures using CSS.
 
 # Arts
-[#Pokeball](Pokeball)
+[Pokeball](Pokeball)
 
 ## Pokeball
 https://codepen.io/victo-pessoa/pen/ExZqqjP
