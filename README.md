@@ -12,6 +12,8 @@ Hi! I created this repository to challenge myself to be a better Front-end devel
 
 [Coffee cup](#Coffee-cup)
 
+[Google Mic Icon](#Google-mic-icon)
+
 ## Pokeball
 
 ### Live test
@@ -38,4 +40,9 @@ https://codepen.io/victo-pessoa/pen/NWpKKpx
 https://codepen.io/victo-pessoa/pen/rNyBNVq
 ![image](https://user-images.githubusercontent.com/6431486/116956674-37f23e00-ac6c-11eb-8666-ffc885084abc.png)
 
+## Google-mic-icon
+
+### Live test
+https://codepen.io/victo-pessoa/pen/WNpeNMJ
+![image](https://user-images.githubusercontent.com/6431486/116958572-7b02e000-ac71-11eb-8b72-e333151c3766.png)
 
